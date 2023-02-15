@@ -18,6 +18,7 @@ function countChars() {
   charCount.textContent = `${numChars}/500 caracteres`;
 }
 
+countChars();
 // const submitButton = document.getElementById('submit-button');
 
 // submitButton.addEventListener('click', function(event){
