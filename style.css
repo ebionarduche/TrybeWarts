@@ -52,17 +52,12 @@ main {
   /* Rever isso dps */
 }
 
-div {
+.rows {
   display: flex;
+}
+
+#checkbox-inputs{
+  margin-left: 210px;
   flex-wrap: wrap;
-}
-
-input[type="radio"] {
-  display: inline-block;
-  width: auto;
-  margin-right: 5px;
-}
-
-label {
-  display: inline-block;
+  flex-basis: 180px;
 }
