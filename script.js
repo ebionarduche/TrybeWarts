@@ -4,7 +4,7 @@ submitButton.addEventListener('click', (clickSubmmit) => {
   clickSubmmit.preventDefault();
   const emailValue = document.getElementById('email').value;
   const passwordValue = document.getElementById('password').value;
-  if (emailValue === 'tryber@teste.com' || passwordValue === 123456) {
+  if (emailValue === 'tryber@teste.com' || passwordValue === '123456') {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
