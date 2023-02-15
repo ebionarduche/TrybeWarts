@@ -11,6 +11,13 @@ submitButton.addEventListener('click', (clickSubmmit) => {
   }
 });
 
+function countChars() {
+  const textArea = document.getElementById('text-area');
+  const charCount = document.getElementById('char-count');
+  const numChars = textArea.value.length;
+  charCount.textContent = `${numChars}/500 caracteres`;
+}
+
 // const submitButton = document.getElementById('submit-button');
 
 // submitButton.addEventListener('click', function(event){
