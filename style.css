@@ -45,3 +45,9 @@ main {
 #email-house {
   display: flex;
 }
+
+#checkbox-family {
+  display: flex;
+  flex-direction: column;
+  /* Rever isso dps */
+}
