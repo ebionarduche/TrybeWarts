@@ -51,3 +51,18 @@ main {
   flex-direction: column;
   /* Rever isso dps */
 }
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+
+label {
+  display: inline-block;
+}
