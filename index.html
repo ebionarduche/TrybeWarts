@@ -15,12 +15,12 @@
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login" action="" method="get">
-      
+
       <section>
         <label for="email"></label>
         <input type="email" name="email" id="email" placeholder="Email">
       </section>
-      
+
       <section>
         <label for="password"></label>
         <input type="password" name="password" id="password" placeholder="Senha">
@@ -31,28 +31,39 @@
   </header>
   <main>
     <form id="evaluation-form" action="" method="get">
-
+      <section id="name-lastname">
       <section>
-        <label for="input-name">Nome</label>
-        <input type="name" name="input-name" id="input-name" placeholder="Nome" >
+        <label for="input-name"></label>
+        <input type="name" name="input-name" id="input-name" placeholder="Nome">
       </section>
-
       <section>
-        <label for="input-lastname">Sobrenome</label>
+        <label for="input-lastname"></label>
         <input type="name" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
       </section>
+    </section>
 
+      <section id="email-house">
       <section>
-        <label for="input-email">Email</label>
+        <label for="input-email"></label>
         <input type="email" name="input-email" id="input-email" placeholder="Email">
       </section>
-  
+    
+      <section>
+        <label for="house">Casa</label>
+        <select name="house" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </section>
+    </section>
+      
     </form>
-
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo-Trybewarts">
 
   </main>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
