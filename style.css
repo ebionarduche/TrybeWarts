@@ -61,3 +61,14 @@ main {
   flex-wrap: wrap;
   flex-basis: 180px;
 }
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  padding-top: 15px;
+  }
