@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(background.png);
+  background-image: url('background.png');
   background-size: cover;
 }
 
@@ -15,10 +15,6 @@ body {
   align-items: center;
   padding: 5px;
   color: white;
-}
-
-#trybewarts-header-title {
-  margin: 0;
 }
 
 .trybewarts-login {
@@ -35,13 +31,18 @@ main {
 
 #title-forms {
   color: white;
-  margin: 30px;
+  margin: 15px;
+  text-align: center;
 }
 
 #evaluation-form {
+  padding: 10px;
+  background-color: rgba(148, 142, 142, 0.257);
   display: flex;
   flex-direction: column;
   width: 675px;
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
 
@@ -52,10 +53,14 @@ main {
 
 #name-lastname {
   display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
 }
 
 #email-house {
   display: flex;
+  justify-content: center;
+  margin-right: 57px;
 }
 
 #checkbox-family {
@@ -80,13 +85,32 @@ main {
   resize: none;
 }
 
+.margin-itens {
+  margin: 10px;
+}
+
+.margin-itens-buttons {
+  margin-bottom: 10px;
+}
+
+.input-forms-control {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.button-entre {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+
+}
+
 footer {
-  display: flex;
-  justify-content: center;
   color: white;
   background-color: black;
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 8px;

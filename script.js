@@ -1,6 +1,8 @@
-const submitButton = document.getElementById('submit-button');
+const enterButton = document.getElementById('submit-button');
+const submitButton = document.getElementById('submit-btn');
+const agreementCheck = document.getElementById('agreement');
 
-submitButton.addEventListener('click', (clickSubmmit) => {
+enterButton.addEventListener('click', (clickSubmmit) => {
   clickSubmmit.preventDefault();
   const emailValue = document.getElementById('email').value;
   const passwordValue = document.getElementById('password').value;
@@ -19,6 +21,13 @@ function countChars() {
 }
 
 countChars();
+
+submitButton.disabled = true;
+agreementCheck.addEventListener('click', () => {
+  if (agreementCheck.checked) {
+    submitButton.disabled = false;
+  }
+});
 // const submitButton = document.getElementById('submit-button');
 
 // submitButton.addEventListener('click', function(event){
