@@ -13,6 +13,7 @@ body {
   background-color: rgb(50, 167, 145);
   align-items: center;
   padding: 5px;
+  color: white;
 }
 
 #trybewarts-header-title {
@@ -28,6 +29,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+#title-forms {
+  color: white;
+  margin: 30px;
 }
 
 #evaluation-form {
