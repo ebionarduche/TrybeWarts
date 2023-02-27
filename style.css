@@ -75,7 +75,7 @@ main {
 #checkbox-inputs {
   margin-left: 210px;
   flex-wrap: wrap;
-  flex-basis: 205px;
+  flex-basis: 190px;
 }
 
 #text-area {
